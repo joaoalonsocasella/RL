@@ -1,7 +1,6 @@
 ## 🏡 Real Estate RL Simulator 🏗️
 
-<div style="text-align: justify;">
-
+<div align="justify">
 O <strong>Real Estate RL Simulator</strong> é um ambiente gamificado desenvolvido para ensinar agentes de <strong>Reinforcement Learning (RL)</strong> a enriquecer investindo no mercado imobiliário. O ambiente simula um bairro fictício com <strong>100.000 imóveis</strong>, cada um com suas próprias características, como preço, metragem, renda média da região, taxa de criminalidade, IDH, demanda do mercado e infraestrutura urbana.
 </div>
 
