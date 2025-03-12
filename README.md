@@ -16,10 +16,10 @@ O bairro será gerado aleatoriamente, contendo 100.000 moradias divididas entre 
 
 ###### 📌 Tipos de Imóveis:
 
-- Casas populares 🏠 - Mais baratas, valorizam pouco.
-- Apartamentos padrão 🏢 - Preço médio, valorização moderada.
-- Casas de luxo 🏡💎 - Altíssimo preço, mas valorizam muito em certas áreas.
-- Apartamentos de cobertura 🌇 - Alto valor, mas sofrem forte influência de mercado.
+- Casas populares - Mais baratas, valorizam pouco.
+- Apartamentos padrão - Preço médio, valorização moderada.
+- Casas de luxo - Altíssimo preço, mas valorizam muito em certas áreas.
+- Apartamentos de cobertura - Alto valor, mas sofrem forte influência de mercado.
 
 ###### 📌 Disposição Geográfica:
 
@@ -30,16 +30,16 @@ Algumas regiões têm alto potencial de crescimento, enquanto outras sofrem desv
 
 ###### 📌 Variáveis que Definem Cada Região do Bairro:
 
-- Preço médio por metro quadrado 💰
-- Infraestrutura disponível 🚆 (metrô, hospitais, escolas, shoppings)
-- Qualidade da vizinhança 👨‍👩‍👧‍👦 (renda média, criminalidade, escolas)
-- Conectividade e transporte 🚌 (distância do centro, tempo de deslocamento)
-- Oferta e demanda 📈 (estoque de imóveis à venda no bairro)
-- Variação histórica de preços 📊 (se a região está valorizando ou desvalorizando)
-- Taxa de ocupação 🏠 (regiões muito vazias têm menor valorização)
-- IDH da microrregião 🌍 (influencia a demanda por moradia)
-- Custo do condomínio 🏢 (para apartamentos)
-- Reformas e customizações 🔨 (alguns imóveis permitem valorização por melhorias)
+- Preço médio por metro quadrado
+- Infraestrutura disponível (metrô, hospitais, escolas, shoppings)
+- Qualidade da vizinhança (renda média, criminalidade, escolas)
+- Conectividade e transporte (distância do centro, tempo de deslocamento)
+- Oferta e demanda (estoque de imóveis à venda no bairro)
+- Variação histórica de preços (se a região está valorizando ou desvalorizando)
+- Taxa de ocupação (regiões muito vazias têm menor valorização)
+- IDH da microrregião (influencia a demanda por moradia)
+- Custo do condomínio (para apartamentos)
+- Reformas e customizações (alguns imóveis permitem valorização por melhorias)
 
 💡 Cada uma dessas variáveis será gerada aleatoriamente no início de cada nova simulação.
 
@@ -53,10 +53,10 @@ Os preços dos imóveis flutuam a cada rodada, baseados em eventos do bairro e n
 </div>
 
 ###### 📌 Eventos aleatórios podem ocorrer e impactar a valorização dos imóveis:
-- 📉 Crise financeira → Preços caem em todas as regiões.
-- 🚇 Nova estação de metrô → Imóveis próximos valorizam.
-- 🏗 Novo shopping → Atração de moradores, aumentando demanda.
-- 🌍 Desastres naturais ou aumento da criminalidade → Queda na valorização de certas áreas.
+- Crise financeira → Preços caem em todas as regiões.
+- Nova estação de metrô → Imóveis próximos valorizam.
+- Novo shopping → Atração de moradores, aumentando demanda.
+- Desastres naturais ou aumento da criminalidade → Queda na valorização de certas áreas.
 
 
 
@@ -65,9 +65,9 @@ Os preços dos imóveis flutuam a cada rodada, baseados em eventos do bairro e n
 A cada rodada, o agente pode escolher uma entre três ações:
 </div>
 
-- 1️⃣ Comprar um imóvel (se tiver dinheiro suficiente).
-- 2️⃣ Vender um imóvel (se já comprou e considera que o preço está bom).
-- 3️⃣ Esperar para analisar melhor o mercado antes de agir.
+- Comprar um imóvel (se tiver dinheiro suficiente).
+- Vender um imóvel (se já comprou e considera que o preço está bom).
+- Esperar para analisar melhor o mercado antes de agir.
 
 <div align="justify">
 <strong>Nota:</strong> O agente pode comprar múltiplos imóveis e vender quando quiser, mas precisa administrar seu saldo.
