@@ -1,8 +1,10 @@
-## Simulador de Investimento Imobiliário
+## 🏡 Real Estate RL Simulator 🏗️
+
+O **Real Estate RL Simulator** é um ambiente gamificado desenvolvido para ensinar agentes de **Reinforcement Learning (RL)** a enriquecer investindo no mercado imobiliário. O ambiente simula um bairro fictício com **100.000 imóveis**, cada um com suas próprias características, como preço, metragem, renda média da região, taxa de criminalidade, IDH, demanda do mercado e infraestrutura urbana.
 
 
 ### 🎯 Objetivo do Agente
-O agente começa com R$ 100.000 e precisa alcançar R$ 1.000.000 investindo em imóveis dentro do bairro simulado. Ele deve comprar barato, vender caro e administrar bem seu capital para atingir esse objetivo antes que o jogo termine.
+O agente começa com **R$ 100.000** e precisa alcançar **R$ 1.000.000** investindo em imóveis dentro do bairro simulado. Ele deve comprar barato, vender caro e administrar bem seu capital para atingir esse objetivo antes que o jogo termine.
 
 ### 📍 1. Estrutura do Bairro
 O bairro será gerado aleatoriamente, contendo 100.000 moradias divididas entre casas e apartamentos. Cada imóvel tem uma série de características que afetam seu valor e sua taxa de valorização.
@@ -55,9 +57,7 @@ A cada rodada, o agente pode escolher uma entre três ações:
 - 2️⃣ Vender um imóvel (se já comprou e considera que o preço está bom).
 - 3️⃣ Esperar para analisar melhor o mercado antes de agir.
 
-**Nota:**
-
-O agente pode comprar múltiplos imóveis e vender quando quiser, mas precisa administrar seu saldo.
+**Nota:** O agente pode comprar múltiplos imóveis e vender quando quiser, mas precisa administrar seu saldo.
 
 📌 Se um imóvel permanecer muito tempo sem vender, pode perder valor por "desgaste de mercado".
 
